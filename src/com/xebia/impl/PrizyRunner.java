@@ -75,6 +75,8 @@ public class PrizyRunner {
 
 		} catch (IOException e) {
 			e.printStackTrace();
+		}catch(IllegalParamException e){
+			System.out.println("No Such Product present in List");
 		}
 
 	}
